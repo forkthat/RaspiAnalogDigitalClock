@@ -266,11 +266,11 @@ textarea {
    ============================================================ */
 
 :root{
-  --color-background: #39323F;
-  --color-clk-bg: #495F73;
-  --color-hour-min: #94B3C0;
-  --color-seconds: #7D1427;
-  --color-all-text: #DED8C5;
+  --color-background: #1F2041;
+  --color-clk-bg: #4B3F72;
+  --color-hour-min: #119DA4;
+  --color-seconds: #FFC857;
+  --color-all-text: #90c8db;
 }
 
 *, *::after, *::before{
@@ -338,7 +338,7 @@ body{
   position: absolute;
   bottom: 50%;
   left: 50%;
-  border: 1px solid var(--color-all-text);
+  border: 1px solid var(--color-background);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   transform-origin: bottom;
@@ -359,7 +359,7 @@ body{
 }
 
 .AnalogClock .hand.hour{
-  width: 10px;
+  width: 12px;
   height: 20%;
   background-color: var(--color-hour-min);
 }
