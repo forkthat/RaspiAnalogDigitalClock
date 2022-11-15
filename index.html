@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!-- Add your site or application content here -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script defer src="js/main.js"></script>
+
+  <div class="AnalogClock">
+    <div class="hand second" data-second-hand></div>
+    <div class="hand minute" data-minute-hand></div>
+    <div class="hand hour" data-hour-hand></div>
+    <div class="number number1">1</div>
+    <div class="number number2">2</div>
+    <div class="number number3">3</div>
+    <div class="number number4">4</div>
+    <div class="number number5">5</div>
+    <div class="number number6">6</div>
+    <div class="number number7">7</div>
+    <div class="number number8">8</div>
+    <div class="number number9">9</div>
+    <div class="number number10">10</div>
+    <div class="number number11">11</div>
+    <div class="number number12">12</div>
+  </div>
+
+  <div></div>
+
+  <div id="DigitalClock" class="clock">
+    <div id="time"></div>
+    <div id="date"></div>
+  </div>
+
+  <button class="js-toggle-fullscreen-btn toggle-fullscreen-btn" aria-label="Enter fullscreen mode" hidden>
+    <svg class="toggle-fullscreen-svg" width="28" height="28" viewBox="-2 -2 28 28">
+      <g class="icon-fullscreen-enter">
+        <path d="M 2 9 v -7 h 7" />
+        <path d="M 22 9 v -7 h -7" />
+        <path d="M 22 15 v 7 h -7" />
+        <path d="M 2 15 v 7 h 7" />
+      </g>
+
+      <g class="icon-fullscreen-leave">
+        <path d="M 24 17 h -7 v 7" />
+        <path d="M 0 17 h 7 v 7" />
+        <path d="M 0 7 h 7 v -7" />
+        <path d="M 24 7 h -7 v -7" />
+      </g>
+    </svg>
+  </button>
+
+</body>
+</html>
