@@ -1,3 +1,3 @@
 # RaspiAnalogDigitalClock
 
-Analog and Digial Clock for Raspi 7-inch touchscreen
+Analog and Digital Clock for Raspi 7-inch touchscreen
