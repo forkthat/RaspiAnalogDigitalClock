@@ -93,5 +93,4 @@ if(document.fullscreenEnabled) {
 	}
 }
 
-
 setClock()

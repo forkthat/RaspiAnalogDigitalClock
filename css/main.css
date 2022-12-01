@@ -275,7 +275,11 @@ textarea {
 
 *, *::after, *::before{
   box-sizing: border-box;
-  font-family: "UbuntuMono Nerd Font", sans-serif;
+}
+
+@font-face {
+  font-family: UbuntuMono-Regular;
+  src: url(UbuntuMono-R.ttf);
 }
 
 body{
@@ -284,6 +288,7 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-family: UbuntuMono-Regular;
 }
 
 .AnalogClock{
@@ -302,7 +307,7 @@ body{
   height: 100%;
   text-align: center;
   transform: rotate(var(--rotation));
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: bold;
   color: var(--color-all-text);
 }
@@ -373,11 +378,11 @@ body{
 }
 
 #time{
-  font-size: 5rem;
+  font-size: 4.5rem;
 }
 
 #date{
-  font-size: 3.2rem;
+  font-size: 3rem;
 }
 
 /* ==========================================================
